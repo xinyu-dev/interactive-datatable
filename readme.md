@@ -3,7 +3,7 @@ A simple implementation of a responsive, interactive data table using jquery, da
 
 # Features: 
 
-1. Fetches data from JSON file (The example JSON file provided as `webinar_v2.JSON`. You can also convert csv file (example: `webinar_v2.csv` from many online tools). 
+1. Fetches data from JSON file (The example JSON file provided as `webinar_v2.JSON`. It is easy to convert csv file (example: `webinar_v2.csv`) to JSON using many online tools. 
 
 2. One search box for all data fields in the table, including fields shown in the dropdown menu
 
