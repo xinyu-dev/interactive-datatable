@@ -1,5 +1,5 @@
 function format ( d ) {
-    // Specify hiding rows to show in the dropdown menu
+    // Specify columns to show in the dropdown menu
     return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
         '<tr>'+
         '<td>'+d.Synopsis+'</td>'+
@@ -28,9 +28,9 @@ $(document).ready(function() {
             { "data": "Speaker Title" },
             { "data": "Affiliation"},
             { "data": "Replay"},
-            { "data": "Synopsis", "visible": false, "searchable": true}  //hide synopsis but make it searchable
+            { "data": "Synopsis", "visible": false, "searchable": true}  //hide this column in dropdown menu,  but make it searchable
         ],
-        "order": [[1, 'asc']]
+        "order": [[1, 'dsc']]
     } );
 
     // Add event listener for opening and closing details
@@ -39,12 +39,12 @@ $(document).ready(function() {
         var row = table.row( tr );
 
         if ( row.child.isShown() ) {
-            // This row is already open - close it
+            // Close dropdown menu if already open
             row.child.hide();
             tr.removeClass('shown');
         }
         else {
-            // Open this row
+            // Open dropdown menu
             row.child( format(row.data()) ).show();
             tr.addClass('shown');
         }

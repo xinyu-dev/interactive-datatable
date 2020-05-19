@@ -15,15 +15,16 @@
 </head>
 
 <style>
+
     /* Plus icon to expand the menu*/
     td.details-control {
-        background: url('https://github.com/xinyu-dev/cas/blob/master/logos/plus.svg?raw=true') no-repeat center center;
+        background: url('https://github.com/xinyu-dev/interactive-datatable/blob/master/img/plus.svg?raw=true') no-repeat center center;
         cursor: pointer;
     }
 
-    /* Plus icon to retract the menu*/
+    /* Minus icon to extract the menu*/
     tr.shown td.details-control {
-        background: url('https://github.com/xinyu-dev/cas/blob/master/logos/minus.svg?raw=true') no-repeat center center;
+        background: url('https://github.com/xinyu-dev/interactive-datatable/blob/master/img/minus.svg?raw=true') no-repeat center center;
     }
 
     /*mouse hover effects*/
@@ -37,6 +38,8 @@
 <table id="webinar" class="row-border hover order-column" style="width:100%">
 <thead>
 <tr>
+    <!--Include all columns including the ones in the drop down menu-->
+    <!--The first column should be an empty one: <th></th> to allow space for the + and - icons for the drop down menu-->
     <th></th>
     <th>Date</th>
     <th>Topics</th>
@@ -66,5 +69,7 @@
 
 </body>
 
+<!--Script for import the table information from JSON file-->
 <script src="https://raw.githubusercontent.com/xinyu-dev/interactive-datatable/master/webinar_v2.js"></script>
+
 </html>
