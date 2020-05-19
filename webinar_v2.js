@@ -1,5 +1,5 @@
 function format ( d ) {
-    // `d` is the original data object for the row
+    // Specify hiding rows to show in the dropdown menu
     return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
         '<tr>'+
         '<td>'+d.Synopsis+'</td>'+
@@ -12,7 +12,7 @@ $(document).ready(function() {
     var table = $('#webinar').DataTable( {
 
         // Fetch JSON file
-        "ajax": "https://raw.githubusercontent.com/xinyu-dev/cas/master/webinar/webinar_v2.JSON",
+        "ajax": "https://raw.githubusercontent.com/xinyu-dev/interactive-datatable/master/webinar_v2.JSON",
         responsive: true,
         "columns": [
             {
