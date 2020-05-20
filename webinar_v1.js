@@ -12,7 +12,7 @@ $(document).ready(function() {
     var table = $('#webinar').DataTable( {
 
         // Fetch JSON file
-        "ajax": "https://raw.githubusercontent.com/xinyu-dev/interactive-datatable/master/webinar_v2.JSON",
+        "ajax": "https://raw.githubusercontent.com/xinyu-dev/interactive-datatable/master/webinar_v1.JSON",
         responsive: true,
         "columns": [
             {
