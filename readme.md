@@ -13,5 +13,5 @@ A simple implementation of a responsive, interactive data table using jquery, da
 
 4. Expandable dropdown menu for each row to hide certain user-defined columns
 
-    [Click for demo](https://xinyu-dev.github.io/interactive-datatable/webinar_v2.html) 
+    [Click for demo](https://xinyu-dev.github.io/interactive-datatable/webinar_v1.html) 
 
