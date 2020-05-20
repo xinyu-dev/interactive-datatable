@@ -25,3 +25,8 @@ Expandable dropdown menu for each row to hide certain user-defined columns.
 ## Version 2: Reponsively hide child rows
 
 Automatically hide whatever number of rows needed, depending on the screen size.
+
+- Data file: `webinar_v2.JSON`, `webinar_list_v2.csv` (only the JSON file is needed as the data source. CSV file is included for convenience. CSV can be converted to JSON using other online tools.)
+- Javascript: `webinar_v2.js`
+- [Demo 1](https://xinyu-dev.github.io/interactive-datatable/webinar_v2.html): Table only. Try resizing the screen to see the effect
+- [Demo 2](http://chineseantibody-dev.org/webinar-test.html): Integration of such table in a themed webpage
