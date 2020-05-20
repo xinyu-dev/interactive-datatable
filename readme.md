@@ -1,9 +1,11 @@
 # Interactive Data Table
 A simple implementation of a responsive, interactive data table using jquery, dataTables.js, and bootstrap
 
-# Features: 
+# Versions: 
 
-1. Fetches data from JSON file (The example JSON file provided as `webinar_v2.JSON`. Many online tools are available to easily convert csv file (example: `webinar_v2.csv`) to JSON. 
+## Version 1: Specify child rows to Hide
+
+1. Fetches data from JSON file (The example JSON file provided as `webinar_v2.JSON`. 
 
 2. One search box for all data fields in the table, including fields shown in the dropdown menu
 
