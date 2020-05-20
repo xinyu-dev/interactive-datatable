@@ -24,7 +24,7 @@ Expandable dropdown menu for each row to hide certain user-defined columns.
 
 ## Version 2: Reponsively hide child rows
 
-Automatically hide whatever number of rows needed, depending on the screen size.
+Responsive to screen size. Automatically hide whatever number of rows needed.
 
 - Data file: `webinar_v2.JSON`, `webinar_list_v2.csv` (only the JSON file is needed as the data source. CSV file is included for convenience. CSV can be converted to JSON using other online tools.)
 - Javascript: `webinar_v2.js`
